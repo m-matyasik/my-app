@@ -1,12 +1,7 @@
 import React from 'react';
+import NewButton from './components/NewButton';
 import logo from './logo.svg';
 import './App.css';
-
-function MyButton() {
-  return (
-    <button>I'm a button</button>
-  );
-}
 
 function App() {
   return (
@@ -35,7 +30,7 @@ function App() {
         Żart
       </p>
 
-      <MyButton />
+      <NewButton />
 
 
       
